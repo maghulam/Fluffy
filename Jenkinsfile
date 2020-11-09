@@ -10,8 +10,8 @@ pipeline {
 
     stage('Fluffy Test') {
       steps {
-        bat 'timeout /t 5 '
         bat 'echo Success!'
+        sleep 5
       }
     }
 
