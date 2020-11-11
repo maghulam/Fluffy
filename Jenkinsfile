@@ -3,21 +3,20 @@ pipeline {
   stages {
     stage('Fluffy Build') {
       steps {
-        echo 'Placeholder'
-        bat 'echo Edited Placeholder.'
+        echo 'Fluffy Build 1'
       }
     }
 
     stage('Fluffy Test') {
       steps {
         sleep 5
-        bat 'echo Success!'
+        echo 'Fluffy test 1'
       }
     }
 
     stage('Fluffy Deploy') {
       steps {
-        echo 'Placeholder'
+        echo 'Fluffy Deploy 1'
       }
     }
 
