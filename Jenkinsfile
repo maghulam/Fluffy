@@ -21,5 +21,11 @@ pipeline {
       }
     }
 
+    stage('FluffyStaging') {
+      steps {
+        echo 'Staging Deployment'
+      }
+    }
+
   }
 }
